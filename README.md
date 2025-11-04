@@ -8,18 +8,18 @@ _(Añade aquí una captura de pantalla de la página de inicio)_
 
 ## 🎯 OBJETIVO: Escalabilidad y Mantenibilidad CSS
 
-El objetivo principal de esta entrega fue implementar un **Preprocesador CSS** para construir una arquitectura de estilización robusta y fácil de escalar por equipos. Se priorizó la organización del código sobre el diseño final.
+El objetivo de este proyecto es demostrar la capacidad de construir una **arquitectura CSS avanzada** que sea fácil de mantener y escalar por un equipo de desarrollo. El foco está en la **organización del código**, no solo en el diseño final.
 
 ### Metodología y Arquitectura:
 
-- **Preprocesador:** Uso de **SASS (SCSS)** para modularizar el código CSS.
-- **Organización:** Estructura de archivos basada en parciales (`_variables.scss`, `_mixins.scss`, `_header.scss`, etc.) para una gestión clara y eficiente.
+- **Preprocesador:** Uso completo de **SASS (SCSS)** para modularizar el código CSS.
+- **Organización Modular:** División del código en **Partiales** (`_variables.scss`, `_mixins.scss`, `_layout.scss`), lo que facilita la lectura y el mantenimiento.
 - **Gestión de Variables:** Uso de `_variables.scss` como "fuente única de verdad" para colores, tipografías y _breakpoints_.
 
-### ✨ Habilidades Demostradas (Prueba de Valor)
+## ✨ PRUEBA DE VALOR
 
-- **Arquitectura Sostenible:** El código está diseñado para ser mantenible y escalable a medida que el proyecto crezca.
-- **Eficiencia:** El uso de Mixins reduce la repetición de código (filosofía DRY) y acelera la implementación de estilos complejos (como media queries o Flexbox patterns).
+- **Mantenibilidad:** La estructura permite que cualquier desarrollador entienda y modifique el diseño sin romper otras partes del sitio.
+- **Eficiencia:** El uso de Mixins reduce la repetición de código (filosofía DRY) y acelera la implementación de estilos complejos.
 
 ---
 
